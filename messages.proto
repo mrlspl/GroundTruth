@@ -1,0 +1,15 @@
+message Position
+{
+required float x = 1;
+required float y = 2;
+}
+message Robot
+{
+required Position position = 1;
+required bool team = 2;
+}
+message FieldData
+{
+repeated Robot robots = 1;
+repeated Position referee = 2;
+}
