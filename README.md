@@ -10,6 +10,8 @@ Requirements: libqt4, libpcl1.7, libopencv2.3, libprotobuf7, libcgal9
 You can run the command below to install all of the required libraries at once:
   sudo apt-get install libqt4-dev libpcl1-dev libopencv-dev libprotobuf7 libcgal9
 
+Note: You are strongly recommended to make install the libpcl from the source
+      this library is very buggy in the driver and try to get the lates git revision
 Notes
 ===========
 - Project is tested on ubuntu 13.04 x86.
