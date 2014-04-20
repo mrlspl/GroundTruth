@@ -7,6 +7,7 @@ Build Instruction
 ===========
 
 You can run the command below to install all of the required libraries at once:
+
   sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
   sudo apt-get update
   sudo apt-get install build-essential cmake libqt4-dev libopencv-dev libprotobuf-dev libcgal-dev libpcl-all
