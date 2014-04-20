@@ -8,9 +8,9 @@ Build Instruction
 
 You can run the command below to install all of the required libraries at once:
 
-  sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
-  sudo apt-get update
-  sudo apt-get install build-essential cmake libqt4-dev libopencv-dev libprotobuf-dev libcgal-dev libpcl-all
+     sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
+     sudo apt-get update
+     sudo apt-get install build-essential cmake libqt4-dev libopencv-dev libprotobuf-dev libcgal-dev libpcl-all
 
 Note: You are strongly recommended to make install the libpcl from the source
       this library is very buggy in the driver and try to get the lates git revision.
